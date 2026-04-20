@@ -16,11 +16,11 @@
             <h2>Registrati</h2>
             <p>Crea il tuo account</p>
 
-            <form>
-                <input type="text" placeholder="Nome completo" required>
-                <input type="email" placeholder="Email" required>
-                <input type="password" placeholder="Password" required>
-                <input type="password" placeholder="Conferma password" required>
+            <form action="php/register.php" method="POST">
+                <input type="text" name="nome" placeholder="Nome completo" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="password" name="pswrd" placeholder="Password" required>
+                <input type="password" name="confirm_password" placeholder="Conferma password" required>
                 <button type="submit">Registrati</button>
             </form>
 
