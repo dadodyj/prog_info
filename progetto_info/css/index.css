@@ -65,10 +65,12 @@ body {
 }
 
 .hero h2 {
+  color: rgb(202, 200, 200);
   font-size: 2.2rem;
 }
 
 .hero p {
+  color: rgb(202, 200, 200);
   margin-top: 10px;
 }
 
@@ -76,7 +78,7 @@ body {
   display: inline-block;
   margin-top: 20px;
   padding: 12px 25px;
-  background: white;
+  background: rgb(202, 200, 200);
   color: var(--primary);
   border-radius: 30px;
   text-decoration: none;
@@ -113,13 +115,13 @@ body {
 }
 
 .card h3 {
-    color: white;
+    color: rgb(202, 200, 200);
     font-size: 1.5rem;
     letter-spacing: 2px;
 }
 
 .card p {
-    color: white;
+    color: rgb(202, 200, 200);
     letter-spacing: 2px;
 }
 
