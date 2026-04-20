@@ -1,0 +1,6 @@
+.login-box h2 {
+  color: var(--primary);
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
