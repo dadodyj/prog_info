@@ -13,12 +13,12 @@ $sql = "SELECT * FROM clienti WHERE email = '$email' AND pswrd = '$password'";
 $result = mysqli_query($conn, $sql);
 
 if (mysqli_num_rows($result) > 0) {
-    while ($row = mysqli_fetch_assoc($result)) {
-        header('Location: index.html');
+    
+        header('Location: /progetto_info/index.html');
         exit();
-    }
+    
 } else {
-    echo "Email o password errati";
+    echo "Email o password errati o già registrati";
 }
 
 mysqli_close($conn);
