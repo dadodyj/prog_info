@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Acquisto</title>
+    <link rel="stylesheet" href="css/acquista.css">
+</head>
+<body>
+
+<section class="section">
+<div class="container">
+
+<h2>Conferma acquisto</h2>
+
+<form action="php/process.php" method="POST">
+
+    <!-- ID prodotto (lo cambi a mano per ogni prodotto) -->
+    <input type="hidden" name="id_catalogo" value="2">
+    
+    <input type="email" name="email" placeholder="Email" required>
+    <input type="password" name="pswrd" placeholder="Password" required>
+    <input type="text" name="nome" placeholder="Nome" required>
+    <input type="text" name="citta" placeholder="Città" required>
+
+    <button type="submit">Compra</button>
+
+</form>
+
+</div>
+</section>
+
+</body>
+</html>

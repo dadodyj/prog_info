@@ -1,0 +1,38 @@
+/* acquista.css */
+
+@import url('index.css');
+
+/* contenitore centrale */
+.container {
+    max-width: 500px;
+}
+
+/* titolo */
+h2 {
+    margin-bottom: 20px;
+    color: var(--primary);
+}
+
+/* box form stile login */
+form {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+/* input */
+input {
+    font-size: 0.95rem;
+}
+
+/* bottone */
+button {
+    background: var(--gradient);
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+button:hover {
+    opacity: 0.9;
+}
