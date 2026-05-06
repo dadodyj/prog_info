@@ -46,6 +46,7 @@ if ($result->num_rows > 0) {
 $query = "SELECT id_centralina FROM centraline WHERE posizione='$citta' LIMIT 1";
 $res = $conn->query($query);
 
+
 if (!$res || $res->num_rows == 0) {
     echo "<h2>Errore: città non trovata nel sistema</h2>";
     echo "<a href='acquista.html'>Torna indietro</a>";
@@ -74,7 +75,7 @@ $query = "INSERT INTO prodotti(tipo, data_acquisto, modello, cod_cliente, cod_ma
 
 if ($conn->query($query)) {
     echo "<h2>Acquisto completato!</h2>";
-    echo "<a href='shop.html'>Torna allo shop</a>";
+    echo "<a href='/progetto_info/index.html'>Torna alla homepage</a>";
 } else {
     echo "<h2>Errore durante l'acquisto</h2>";
 }

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I tuoi prodotti - SecureDomus</title>
+
+    <link rel="stylesheet" href="css/index.css" />
+</head>
+
+<body>
+
+<header class="navbar">
+    <div class="container nav-content">
+        <h1 class="logo">SecureDomus</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="section">
+    <div class="container">
+        <h2>Accedi ai tuoi dispositivi</h2>
+        <p>Inserisci le tue credenziali per visualizzare i sistemi di sicurezza attivi.</p>
+
+        <form action="php/prodotti.php" method="POST">
+            <input type="text" name="nome" placeholder="Nome" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="password" name="pswrd" placeholder="Password" required>
+
+            <button type="submit">Visualizza prodotti</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>© 2026 SecureDomus</p>
+    </div>
+</footer>
+
+</body>
+</html>
